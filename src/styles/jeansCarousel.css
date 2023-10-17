@@ -1,0 +1,47 @@
+.jeansCarousel {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+  
+.jeansCarousel-container {
+    width: 100%;
+    display: flex;
+}
+
+.jeansCarousel-img {
+    flex: 1;
+}
+
+.jeansCarousel-img img {
+    width: 100%;
+}
+
+.swiper {
+    flex: 1;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 100% !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: black !important;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 35px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black !important;
+}
+
+@media (max-width: 750px) {
+    .jeansCarousel-container {
+        flex-direction: column;
+    }
+}

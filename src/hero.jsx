@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './index.css'
+import './styles/index.css'
 
 import overshirts from './images/Overshirts.png';
 import knitwear from './images/Knitwear.png';

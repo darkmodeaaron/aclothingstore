@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import './index.css'
+import './styles/index.css'
 import { Header } from './header';
 import { Link } from './link';
 import { ThreeSquares } from './hero';
-import { Carousel } from './Carousel';
+import { JeansCarousel } from './jeansCarousel';
 
 export function App() {
 
@@ -33,7 +33,7 @@ export function App() {
         <div className={`main ${mainState? 'active' : 'inactive'}`}>
             <Link state={linkState}/>
             <ThreeSquares />
-            <Carousel />
+            <JeansCarousel />
         </div>
     </>
 }

@@ -453,10 +453,6 @@ body {
     height: 400px;
   }
 
-  .carousel-container {
-    flex-direction: column;
-  }
-
 }
 
 .main.active {
@@ -494,54 +490,3 @@ body {
 }
 
 
-.carousel {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 25px;
-}
-
-.carousel-container {
-  width: 100%;
-  display: flex;
-}
-
-.jeans-fill-img {
-  flex: 1;
-}
-
-.jeans-fill-img img {
-  width: 100%;
-}
-
-.swiper {
-  flex: 1;
-}
-
-.swiper-slide img {
-  width: 100%;
-}
-
-.swiper-slide {
-  width: 100% !important;
-}
-
-.swiper-button-prev {
-  color: black !important;
-}
-.swiper-button-prev::after {
-  font-size: 35px !important;
-}
-
-.swiper-button-next {
-  color: black !important;
-
-}
-
-.swiper-button-next::after {
-  font-size: 35px !important;
-
-}
-
-.swiper-pagination-bullet-active {
-  background-color: black !important;
-}

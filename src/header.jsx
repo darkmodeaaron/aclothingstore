@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './index.css'
+import './styles/index.css'
 import logo from './images/cart-white.png'; // with import
 import blackLogo from './images/cart-black.png';
 import React from 'react'
